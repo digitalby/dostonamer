@@ -1,0 +1,87 @@
+{
+  "locale": "en",
+  "version": "1.0.0",
+  "styles": {
+    "masculine": {
+      "description": "Masculine given name + surname (19th-century Anglosphere vibe)",
+      "composition": [
+        { "type": "given", "pool": "given_masculine", "position": 0 },
+        { "type": "surname", "pool": "surname", "position": 1 }
+      ],
+      "displayOrder": [0, 1]
+    },
+    "feminine": {
+      "description": "Feminine given name + surname",
+      "composition": [
+        { "type": "given", "pool": "given_feminine", "position": 0 },
+        { "type": "surname", "pool": "surname", "position": 1 }
+      ],
+      "displayOrder": [0, 1]
+    },
+    "neutral": {
+      "description": "Gender-neutral given name + surname",
+      "composition": [
+        { "type": "given", "pool": "given_neutral", "position": 0 },
+        { "type": "surname", "pool": "surname", "position": 1 }
+      ],
+      "displayOrder": [0, 1]
+    }
+  },
+  "pools": {
+    "given_masculine": [
+      "Elliot", "Caleb", "Silas", "Amos", "Ezra", "Josiah", "Thaddeus", "Barnabas",
+      "Fletcher", "Garrett", "Hollis", "Irving", "Jasper", "Levi", "Millard",
+      "Nathaniel", "Orson", "Phineas", "Quincy", "Reuben", "Solomon", "Theodore",
+      "Ulysses", "Vincent", "Wallace", "Zebediah", "Augustus", "Benedict", "Cecil",
+      "Dashiell", "Edmund", "Franklin", "Gilbert", "Harlow", "Isaiah", "Jerome",
+      "Kendrick", "Luther", "Montgomery", "Newton", "Obadiah", "Percival", "Roland",
+      "Sterling", "Tobias", "Uriah", "Vernon", "Wilbur", "Albion", "Chester",
+      "Dunstan", "Eustace", "Fitzroy", "Graham", "Hadley", "Ingram", "Jebediah",
+      "Kimball", "Lucius", "Mortimer", "Norris", "Oswald", "Pemberton", "Reginald",
+      "Titus", "Ulrich", "Winslow", "Aloysius", "Alistair", "Byron", "Clifton",
+      "Cornelius", "Devereux", "Elias", "Fenwick", "Gideon", "Horace", "Absalom",
+      "Barnwell", "Carleton"
+    ],
+    "given_feminine": [
+      "Molly", "Nora", "Hazel", "Clara", "Edith", "Florence", "Harriet", "Ida",
+      "Josephine", "Lillian", "Mabel", "Nellie", "Olive", "Prudence", "Rosalind",
+      "Sylvia", "Temperance", "Una", "Violet", "Willa", "Agatha", "Beatrice",
+      "Cecily", "Dorothea", "Eleanor", "Faith", "Genevieve", "Helena", "Isadora",
+      "Jemima", "Katherine", "Lavinia", "Minerva", "Nettie", "Octavia", "Philomena",
+      "Rowena", "Seraphina", "Thomasina", "Ursula", "Verity", "Winnifred", "Arabella",
+      "Bernadette", "Constance", "Delia", "Evangeline", "Felicity", "Gwendolyn",
+      "Honoria", "Imogen", "Jessamine", "Leonora", "Miriam", "Narcissa", "Ophelia",
+      "Penelope", "Rosalba", "Sophronia", "Thessaly", "Venetia", "Wilhelmina",
+      "Adelaide", "Blanche", "Cordelia", "Dolores", "Estelle", "Henrietta",
+      "Ingrid", "Juniper", "Lavender", "Marigold", "Nell", "Opal", "Patience",
+      "Quintina", "Sybilla", "Tabitha", "Winifred", "Zenobia", "Adela"
+    ],
+    "given_neutral": [
+      "Avery", "Quinn", "Rowan", "Sage", "Emerson", "River", "Phoenix", "Wren",
+      "Finch", "Blair", "Casey", "Dakota", "Devon", "Eden", "Ellery", "Fern",
+      "Glen", "Indigo", "Jaye", "Kendall", "Lane", "Merle", "North", "Oakley",
+      "Pax", "Reed", "Spencer", "True", "Vesper", "Winter", "Ainsley", "Birch",
+      "Cedar", "Drew", "Ellis", "Forest", "Gray", "Harbor", "Islay", "Kelsey",
+      "Lark", "Moss", "Nash", "Oriel", "Penn", "Quest", "Rory", "Slate",
+      "Teal", "Vale", "Wilder", "Ash", "Bay", "Clover", "Dale", "Ever",
+      "Flint", "Greer", "Hale", "Iris", "Joss", "Kit", "Linden", "Maren",
+      "Noel", "Onyx", "Perry", "Robin", "Soleil", "Thorn", "Unity", "Vex",
+      "Wolfe", "Xen", "Yew", "Zeal", "Blaze", "Cove", "Drift", "Echo"
+    ],
+    "surname": [
+      "Parker", "Bennett", "Whitaker", "Mercer", "Colby", "Ellsworth", "Fairfax",
+      "Granger", "Harrington", "Ives", "Jameson", "Kimball", "Langford",
+      "Merriweather", "Norwood", "Osbourne", "Prescott", "Remington", "Salisbury",
+      "Tindall", "Underhill", "Vanderbrook", "Willoughby", "Exeter", "Yarborough",
+      "Alcott", "Blackwood", "Carver", "Dunmore", "Enfield", "Foxcroft", "Galway",
+      "Hathaway", "Ironside", "Jennings", "Kirkwood", "Lampton", "Moorefield",
+      "Nettleby", "Oglethorpe", "Pendleton", "Rathbone", "Stanwick", "Thornbury",
+      "Upton", "Westerbrook", "Yelton", "Alderwick", "Bramwell", "Critchlow",
+      "Dunbar", "Eastwood", "Fenwick", "Greenway", "Hollowell", "Ingleby",
+      "Ladbury", "Mosswood", "Oldberry", "Plimpton", "Rawlings", "Sedgewick",
+      "Thornton", "Upfield", "Warwick", "Wycliffe", "Aldrich", "Barnwood",
+      "Cromwell", "Dalloway", "Ellison", "Foxborough", "Grimshaw", "Halcott",
+      "Quincey", "Pemberton", "Marlowe", "Northcott", "Sutherland", "Vane"
+    ]
+  }
+}
