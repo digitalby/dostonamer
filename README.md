@@ -1,4 +1,6 @@
-# dostonamer
+# dostonamer - Generate names like it's the 19th century!
+
+![Dostonamer logo](dostonamer.png)
 
 A small, clean, extensible library and CLI for generating human-readable pseudonymous usernames shaped by language-specific dictionaries.
 
@@ -14,10 +16,6 @@ $ dostonamer --locale ru --style masculine --count 3 --seed 7
 Феодор Шатунов
 Евлампий Угрюмов
 ```
-
-## Why this project exists
-
-Sometimes you need a username that is readable and memorable but not tied to a real person. This project generates names that feel culturally shaped by a locale — English names that sound vaguely 19th-century New England, Russian names with a literary-bureaucratic flavour — while remaining clearly fictional.
 
 ## Architecture
 
@@ -150,11 +148,4 @@ dostonamer [options]
 
 ## Current limitations
 
-- No transliteration (Russian output is Cyrillic only).
-- English pack has ~80 entries per category — intentionally small for readability.
-- Seeded `generate()` and `generateMany()` use different RNG streams (by design: `generate` is always isolated; `generateMany` streams from one seed).
 - No CLI piping of pack paths from env variable yet.
-
-## License
-
-MIT — see LICENSE.
