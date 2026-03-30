@@ -1,0 +1,66 @@
+{
+  "locale": "ko",
+  "version": "1.0.0",
+  "styles": {
+    "masculine": {
+      "description": "Korean masculine name in Revised Romanization, surname first (e.g. Kim Minjun)",
+      "composition": [
+        { "type": "surname", "pool": "surname", "position": 0 },
+        { "type": "given", "pool": "given_masculine", "position": 1 }
+      ],
+      "displayOrder": [0, 1]
+    },
+    "feminine": {
+      "description": "Korean feminine name in Revised Romanization, surname first (e.g. Park Seoyeon)",
+      "composition": [
+        { "type": "surname", "pool": "surname", "position": 0 },
+        { "type": "given", "pool": "given_feminine", "position": 1 }
+      ],
+      "displayOrder": [0, 1]
+    }
+  },
+  "pools": {
+    "surname": [
+      "Kim", "Lee", "Park", "Choi", "Jung",
+      "Kang", "Cho", "Yoon", "Jang", "Lim",
+      "Oh", "Han", "Shin", "Ko", "Seo",
+      "Kwon", "Hwang", "Ahn", "Song", "Hong",
+      "Jeon", "Yang", "Moon", "Son", "Bae",
+      "Baek", "Heo", "Nam", "Sim", "Noh",
+      "Yu", "Ryu", "Yoo", "Joo", "Ha",
+      "Gong", "Cha", "Woo", "Ma", "Jin",
+      "Eom", "Shim", "Bok", "Seok", "Tak",
+      "Ku", "Im", "Bang", "Gi", "Hyun",
+      "Pyo", "Cheon", "Pi", "Ji", "Tae",
+      "Myung", "Mun", "Ban", "Du", "Seong"
+    ],
+    "given_masculine": [
+      "Minjun", "Siwoo", "Junseo", "Jihoon", "Donghyun",
+      "Jaemin", "Seojun", "Yujun", "Sunghyun", "Hyunwoo",
+      "Jungwoo", "Minsoo", "Jinho", "Taehyun", "Sangwoo",
+      "Jaehyun", "Hyunseok", "Doohyun", "Minseok", "Kyungmin",
+      "Woojin", "Hyunjin", "Sungmin", "Jiwon", "Yongjun",
+      "Byunghyun", "Seungmin", "Jiyong", "Changhyun", "Kyungjun",
+      "Daehyun", "Joohyun", "Sangmin", "Jinwoo", "Taeyang",
+      "Seokjin", "Namjoon", "Hoseok", "Jimin", "Taehyung",
+      "Jungkook", "Yoongi", "Wonwoo", "Mingyu", "Seungkwan",
+      "Jeonghan", "Seungcheol", "Soonyoung", "Hansol", "Chan",
+      "Kibum", "Jinki", "Jonghyun", "Minho", "Taemin"
+    ],
+    "given_feminine": [
+      "Seoyeon", "Soeun", "Jiyeon", "Minji", "Yejin",
+      "Haeun", "Soyeon", "Eunji", "Jisoo", "Yuna",
+      "Chaeyoung", "Naeun", "Yerin", "Somin", "Hyorin",
+      "Bora", "Dahyun", "Momo", "Sana", "Jihyo",
+      "Mina", "Tzuyu", "Irene", "Seulgi", "Wendy",
+      "Joy", "Yeri", "Jennie", "Lisa", "Soojin",
+      "Rose", "Eunha", "Yuju", "Sinb", "Umji",
+      "Sowon", "Hayoung", "Yebin", "Gaeun", "Sungyeon",
+      "Kyulkyung", "Minkyung", "Chanmi", "Gyujin", "Eunwoo",
+
+      "Chaeyeon", "Doyeon", "Yoojung", "Sejeong", "Meiqi",
+      "Nayeon", "Jeongyeon", "Minyoung", "Hana", "Yeji",
+      "Lia", "Ryujin", "Chaeryeong", "Kyunghee", "Hyunjung"
+    ]
+  }
+}

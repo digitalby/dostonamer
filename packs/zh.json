@@ -1,0 +1,70 @@
+{
+  "locale": "zh",
+  "version": "1.0.0",
+  "styles": {
+    "masculine": {
+      "description": "Chinese masculine name in Pinyin romanization, surname first (e.g. Wáng Jiànhuá)",
+      "composition": [
+        { "type": "surname", "pool": "surname", "position": 0 },
+        { "type": "given", "pool": "given_masculine", "position": 1 }
+      ],
+      "displayOrder": [0, 1]
+    },
+    "feminine": {
+      "description": "Chinese feminine name in Pinyin romanization, surname first (e.g. Lín Yūnjīng)",
+      "composition": [
+        { "type": "surname", "pool": "surname", "position": 0 },
+        { "type": "given", "pool": "given_feminine", "position": 1 }
+      ],
+      "displayOrder": [0, 1]
+    }
+  },
+  "pools": {
+    "surname": [
+      "Wang", "Li", "Zhang", "Liu", "Chen",
+      "Yang", "Zhao", "Wu", "Zhou", "Xu",
+      "Sun", "Ma", "Zhu", "Hu", "Guo",
+      "He", "Lin", "Gao", "Luo", "Zheng",
+      "Liang", "Xie", "Tang", "Han", "Feng",
+      "Dong", "Cheng", "Cao", "Yuan", "Deng",
+      "Fu", "Shen", "Zeng", "Peng", "Lu",
+      "Su", "Jiang", "Ye", "Bai", "Xiao",
+      "Shi", "Tian", "Yin", "Meng", "Qin",
+      "Gu", "Shao", "Wan", "Jin", "Cui",
+      "Hou", "Long", "Pan", "Kong", "Yu",
+      "Dai", "Wei", "Mo", "Du", "Xue",
+      "Mao", "Qian", "Lei", "Bao", "Pu",
+      "Ouyang", "Shangguan", "Zhuang", "Yan",
+      "Jia", "Xia", "Qi", "Ding", "Fang",
+      "Xiong", "Nie", "Qiu", "Tong", "Sheng"
+    ],
+    "given_masculine": [
+      "Wei", "Jun", "Hao", "Ming", "Lei",
+      "Jian", "Peng", "Yong", "Liang", "Bin",
+      "Zhi", "Feng", "Tao", "Yang", "Chao",
+      "Kai", "Long", "Fei", "Bo", "Wen",
+      "Jianhua", "Mingzhi", "Haolin", "Junwei", "Pengfei",
+      "Yongkang", "Liangkun", "Bingchen", "Zhiyuan", "Fengbo",
+      "Tianlong", "Kaiyuan", "Haoran", "Jianming", "Wenhao",
+      "Zhenghao", "Guangming", "Weiming", "Jialong", "Yuankai",
+      "Xuanlin", "Ruicheng", "Jiahao", "Minghao", "Zhenyu",
+      "Liuyuan", "Bohan", "Wenbo", "Jiaming", "Chengze",
+      "Tianhao", "Shujian", "Bingkun", "Hongwei", "Junhao",
+      "Xiaolong", "Guowei", "Zhengkun", "Qiangli", "Yaohui"
+    ],
+    "given_feminine": [
+      "Li", "Yan", "Fang", "Hong", "Ying",
+      "Min", "Jing", "Wei", "Shan", "Xiu",
+      "Mei", "Hua", "Yun", "Lan", "Zhen",
+      "Qing", "Xia", "Juan", "Ping", "Rong",
+      "Yingying", "Xiaohong", "Liying", "Jiayi", "Mingzhu",
+      "Yunjing", "Huifang", "Xiaoyan", "Bingbing", "Ruoxi",
+      "Lingling", "Qianwen", "Shuying", "Zhiying", "Fengyun",
+      "Guiying", "Shuzhen", "Qiuyue", "Yumei", "Huiling",
+      "Tingting", "Liling", "Wenjing", "Xiaoling", "Yanmei",
+      "Yuhuan", "Zhenzhen", "Ruomei", "Xiuying", "Jingyi",
+      "Lihua", "Mingjuan", "Yuhua", "Qiong", "Xiangling",
+      "Fengmei", "Suxin", "Yalan", "Zhuying", "Lianying"
+    ]
+  }
+}
