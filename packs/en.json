@@ -25,6 +25,14 @@
         { "type": "surname", "pool": "surname", "position": 1 }
       ],
       "displayOrder": [0, 1]
+    },
+    "google_drive": {
+      "description": "Google Drive collaborative-editing style: Anonymous + animal (e.g. Anonymous Capybara)",
+      "composition": [
+        { "type": "x-prefix", "pool": "google_drive_prefix", "position": 0 },
+        { "type": "x-noun", "pool": "google_drive_animal", "position": 1 }
+      ],
+      "displayOrder": [0, 1]
     }
   },
   "pools": {
@@ -67,6 +75,27 @@
       "Flint", "Greer", "Hale", "Iris", "Joss", "Kit", "Linden", "Maren",
       "Noel", "Onyx", "Perry", "Robin", "Soleil", "Thorn", "Unity", "Vex",
       "Wolfe", "Xen", "Yew", "Zeal", "Blaze", "Cove", "Drift", "Echo"
+    ],
+    "google_drive_prefix": ["Anonymous"],
+    "google_drive_animal": [
+      "Aardvark", "Albatross", "Alligator", "Alpaca", "Anteater", "Armadillo",
+      "Auroch", "Axolotl", "Badger", "Bat", "Beaver", "Bison", "Buffalo",
+      "Camel", "Capybara", "Chameleon", "Cheetah", "Chinchilla", "Chipmunk",
+      "Cobra", "Condor", "Cougar", "Coyote", "Crane", "Crow", "Dingo",
+      "Dodo", "Dolphin", "Duck", "Eagle", "Echidna", "Elephant", "Elk",
+      "Fennec", "Ferret", "Flamingo", "Fossa", "Fox", "Frog", "Gecko",
+      "Giraffe", "Gopher", "Gorilla", "Grizzly", "Hedgehog", "Hippo",
+      "Hyena", "Ibex", "Iguana", "Jackal", "Jackalope", "Jaguar",
+      "Kangaroo", "Koala", "Komodo", "Kraken", "Lemur", "Leopard",
+      "Liger", "Lion", "Llama", "Manatee", "Meerkat", "Mink",
+      "Mole", "Mongoose", "Monkey", "Moose", "Narwhal", "Ocelot",
+      "Orangutan", "Otter", "Panda", "Pangolin", "Panther", "Parrot",
+      "Peacock", "Pelican", "Penguin", "Platypus", "Porcupine", "Possum",
+      "Pug", "Quetzal", "Rabbit", "Raccoon", "Raven", "Rhino",
+      "Salamander", "Sheep", "Shrew", "Skunk", "Sloth", "Slug",
+      "Squirrel", "Tapir", "Tiger", "Toucan", "Turtle", "Unicorn",
+      "Walrus", "Weasel", "Wolf", "Wolverine", "Wombat", "Woodchuck",
+      "Yak", "Zebra"
     ],
     "surname": [
       "Parker", "Bennett", "Whitaker", "Mercer", "Colby", "Ellsworth", "Fairfax",
