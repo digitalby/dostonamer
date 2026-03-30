@@ -33,6 +33,14 @@
         { "type": "x-noun", "pool": "google_drive_animal", "position": 1 }
       ],
       "displayOrder": [0, 1]
+    },
+    "reddit": {
+      "description": "Reddit-style compound: neutral/positive adjective + animal, creature, job, plant, or natural-object noun (e.g. Playful Fox, Sparkling Engineer)",
+      "composition": [
+        { "type": "x-adjective", "pool": "reddit_adjective", "position": 0 },
+        { "type": "x-noun", "pool": "reddit_noun", "position": 1 }
+      ],
+      "displayOrder": [0, 1]
     }
   },
   "pools": {
@@ -96,6 +104,52 @@
       "Squirrel", "Tapir", "Tiger", "Toucan", "Turtle", "Unicorn",
       "Walrus", "Weasel", "Wolf", "Wolverine", "Wombat", "Woodchuck",
       "Yak", "Zebra"
+    ],
+    "reddit_adjective": [
+      "Affectionate", "Agreeable", "Amiable", "Amusing", "Ardent", "Astute",
+      "Blazing", "Bountiful", "Brave", "Bright", "Buoyant", "Calm",
+      "Carefree", "Cheerful", "Clever", "Courageous", "Curious", "Dazzling",
+      "Devoted", "Diligent", "Earnest", "Ebullient", "Effervescent", "Elegant",
+      "Enchanting", "Energetic", "Enthusiastic", "Exuberant", "Fearless", "Fervent",
+      "Festive", "Fierce", "Focused", "Gallant", "Generous", "Genuine",
+      "Gifted", "Giggling", "Glorious", "Glowing", "Gracious", "Hardy",
+      "Harmonious", "Hearty", "Helpful", "Hopeful", "Illustrious", "Industrious",
+      "Inventive", "Jovial", "Jubilant", "Keen", "Kind", "Lively",
+      "Luminous", "Majestic", "Merry", "Mighty", "Noble", "Nurturing",
+      "Optimistic", "Peaceful", "Persistent", "Playful", "Plucky", "Radiant",
+      "Resolute", "Resourceful", "Roaming", "Robust", "Scholarly", "Serene",
+      "Shining", "Sincere", "Skillful", "Sparkling", "Spirited", "Steadfast",
+      "Tenacious", "Thoughtful", "Thriving", "Trusty", "Valiant", "Vibrant",
+      "Vigilant", "Vivid", "Warm", "Whimsical", "Witty", "Wondrous",
+      "Zealous", "Zestful"
+    ],
+    "reddit_noun": [
+      "Albatross", "Axolotl", "Badger", "Beaver", "Bison", "Capybara",
+      "Chameleon", "Cheetah", "Chinchilla", "Cobra", "Condor", "Coyote",
+      "Dingo", "Dolphin", "Echidna", "Elk", "Fennec", "Ferret",
+      "Fox", "Gecko", "Gopher", "Gorilla", "Hedgehog", "Iguana",
+      "Jackalope", "Jaguar", "Kangaroo", "Lemur", "Llama", "Manatee",
+      "Meerkat", "Mongoose", "Narwhal", "Ocelot", "Otter", "Pangolin",
+      "Platypus", "Porcupine", "Quetzal", "Raccoon", "Salamander", "Sloth",
+      "Tapir", "Wombat", "Wolverine",
+      "Alchemist", "Architect", "Astronaut", "Aviator", "Baker", "Botanist",
+      "Cartographer", "Cobbler", "Curator", "Drifter", "Engineer", "Explorer",
+      "Forager", "Geologist", "Herbalist", "Inventor", "Librarian", "Navigator",
+      "Pilgrim", "Pioneer", "Poet", "Ranger", "Scholar", "Scribe",
+      "Sculptor", "Shepherd", "Surveyor", "Tinker", "Tracker", "Weaver",
+      "Acorn", "Anemone", "Aster", "Birch", "Briar", "Cedar",
+      "Clover", "Dahlia", "Dandelion", "Elm", "Fern", "Foxglove",
+      "Hawthorn", "Hazel", "Heather", "Hemlock", "Iris", "Juniper",
+      "Larkspur", "Lavender", "Marigold", "Meadow", "Mistletoe", "Moss",
+      "Nettle", "Oak", "Primrose", "Rowan", "Sage", "Thistle",
+      "Willow", "Wisteria", "Yarrow", "Yew",
+      "Asteroid", "Aurora", "Blizzard", "Boulder", "Canyon", "Cascade",
+      "Cavern", "Cliff", "Comet", "Crag", "Crater", "Current",
+      "Delta", "Dune", "Fjord", "Flint", "Frost", "Geyser",
+      "Glacier", "Granite", "Gust", "Harbor", "Lava", "Mesa",
+      "Nebula", "Peak", "Pebble", "Rapids", "Reef", "Ridge",
+      "Rift", "Shore", "Slate", "Summit", "Tempest", "Tide",
+      "Torrent", "Tundra", "Valley", "Vortex", "Watershed"
     ],
     "surname": [
       "Parker", "Bennett", "Whitaker", "Mercer", "Colby", "Ellsworth", "Fairfax",
