@@ -1,0 +1,86 @@
+{
+  "locale": "pl",
+  "version": "1.0.0",
+  "styles": {
+    "masculine": {
+      "description": "Męskie imię + nazwisko (styl poetycki/kościelny/tradycyjny)",
+      "composition": [
+        { "type": "given", "pool": "given_masculine", "position": 0 },
+        { "type": "surname", "pool": "surname_masculine", "position": 1 }
+      ],
+      "displayOrder": [0, 1]
+    },
+    "feminine": {
+      "description": "Żeńskie imię + nazwisko",
+      "composition": [
+        { "type": "given", "pool": "given_feminine", "position": 0 },
+        { "type": "surname", "pool": "surname_feminine", "position": 1 }
+      ],
+      "displayOrder": [0, 1]
+    }
+  },
+  "pools": {
+    "given_masculine": [
+      "Stanisław", "Władysław", "Kazimierz", "Zygmunt", "Bolesław",
+      "Mieczysław", "Przemysław", "Wiesław", "Sławomir", "Radosław",
+      "Wojciech", "Zbigniew", "Leszek", "Tadeusz", "Bronisław",
+      "Wacław", "Czesław", "Walerian", "Ambroży", "Hieronim",
+      "Seweryn", "Dobiesław", "Bogdan", "Rościsław", "Grzegorz",
+      "Bartłomiej", "Aleksander", "Wincenty", "Konstanty", "Benedykt",
+      "Ignacy", "Onufry", "Klemens", "Cyprian", "Felicjan",
+      "Bogumił", "Świętosław", "Jarosław", "Sławoj", "Przybysław",
+      "Dobromir", "Gościsław", "Lutosław", "Mszczuj", "Pakosław",
+      "Racibor", "Sambor", "Tomisław", "Warcisław", "Zdzisław",
+      "Laurenty", "Dobiegniew", "Elżbieta", "Eustachy",
+      "Gedeon", "Idzi", "Joachim", "Ksawery", "Lambert",
+      "Maurycy", "Nikodem", "Olimp", "Porfiry", "Rufin",
+      "Sylwester", "Teofil", "Urban", "Walenty", "Zenobiusz"
+    ],
+    "given_feminine": [
+      "Władysława", "Kazimiera", "Wiesława", "Radosława", "Bronisława",
+      "Czesława", "Stanisława", "Bogumiła", "Jadwiga", "Wanda",
+      "Halina", "Zofia", "Cecylia", "Małgorzata", "Rozalia",
+      "Serafina", "Felicja", "Waleria", "Klementyna", "Ambrozia",
+      "Hieronima", "Benedykta", "Scholastyka", "Kunegunda", "Salomea",
+      "Anastazja", "Eulalia", "Weronika", "Konstancja", "Eufemia",
+      "Elżbieta", "Ludmiła", "Zdzisława", "Mirosława", "Gościsława",
+      "Dobrosława", "Sławomira", "Przemysława", "Teofila", "Urbania",
+      "Wirginia", "Petronela", "Olimpia", "Nikodema",
+      "Melchior", "Leokadia", "Krystyna", "Józefina", "Irena",
+      "Henryka", "Gertruda", "Florentyna", "Eleonora", "Dobrawa",
+      "Celestyna", "Bożena", "Agnieszka", "Walburgis", "Tekla",
+      "Sylweria", "Rufina", "Paulina", "Otylia", "Narcyza",
+      "Modesta", "Lidia", "Katarzyna", "Jadwisia", "Izabela"
+    ],
+    "surname_masculine": [
+      "Wiśniewski", "Kwiatkowski", "Krawczyk", "Piotrowski", "Grabowski",
+      "Wróblewski", "Jaworski", "Czyżewski", "Tomaszewski", "Malinowski",
+      "Przybyszewski", "Radomski", "Chmielewski", "Borkowski", "Wierzbicki",
+      "Woźnicki", "Olszewski", "Kucharski", "Walczak", "Rycerski",
+      "Krakowski", "Lwowski", "Gdański", "Poznański", "Mazowiecki",
+      "Śląski", "Kujawski", "Podlaski", "Lubelski", "Sandomierski",
+      "Dobrzyński", "Rawski", "Sieradzki", "Łęczycki", "Inowrocławski",
+      "Kowalewski", "Żukowski", "Stępkowski", "Rudnicki", "Dębicki",
+      "Łukasiewicz", "Marcinkiewicz", "Stankiewicz", "Wojciechowicz", "Bartoszewicz",
+      "Romanowski", "Sobolewski", "Tylkowski", "Ulanowski", "Zaremba",
+      "Zaborowski", "Wysocki", "Wielopolski", "Tarkowski", "Starzyński",
+      "Potocki", "Ostrogski", "Niemojewski", "Narutowicz", "Modrzewski",
+      "Lelewel", "Kościuszko", "Jabłonowski", "Chodkiewicz", "Branicki"
+    ],
+    "surname_feminine": [
+      "Wiśniewska", "Kwiatkowska", "Krawczyk", "Piotrowska", "Grabowska",
+      "Wróblewska", "Jaworska", "Czyżewska", "Tomaszewska", "Malinowska",
+      "Przybyszewska", "Radomska", "Chmielewska", "Borkowska", "Wierzbicka",
+      "Woźnicka", "Olszewska", "Kucharska", "Walczak", "Rycerska",
+      "Krakowska", "Lwowska", "Gdańska", "Poznańska", "Mazowiecka",
+      "Śląska", "Kujawska", "Podlaska", "Lubelska", "Sandomierska",
+      "Dobrzyńska", "Rawska", "Sieradzka", "Łęczycka", "Inowrocławska",
+      "Kowalewska", "Żukowska", "Stępkowska", "Rudnicka", "Dębicka",
+      "Łukasiewicz", "Marcinkiewicz", "Stankiewicz", "Wojciechowicz", "Bartoszewicz",
+      "Romanowska", "Sobolewska", "Tylkowska", "Ulanowska", "Zaremba",
+      "Zaborowska", "Wysocka", "Wielopolska", "Tarkowska", "Starzyńska",
+      "Potocka", "Ostrogska", "Niemojewska", "Narutowicz", "Modrzewska",
+      "Lelewel", "Kościuszko", "Jabłonowska", "Chodkiewicz", "Branicka"
+    ]
+  }
+}
