@@ -1,0 +1,67 @@
+{
+  "locale": "ja",
+  "version": "1.0.0",
+  "styles": {
+    "masculine": {
+      "description": "Japanese masculine name in Hepburn romanization, surname first (e.g. Yamamoto Haruto)",
+      "composition": [
+        { "type": "surname", "pool": "surname", "position": 0 },
+        { "type": "given", "pool": "given_masculine", "position": 1 }
+      ],
+      "displayOrder": [0, 1]
+    },
+    "feminine": {
+      "description": "Japanese feminine name in Hepburn romanization, surname first (e.g. Tanaka Sakura)",
+      "composition": [
+        { "type": "surname", "pool": "surname", "position": 0 },
+        { "type": "given", "pool": "given_feminine", "position": 1 }
+      ],
+      "displayOrder": [0, 1]
+    }
+  },
+  "pools": {
+    "surname": [
+      "Sato", "Suzuki", "Takahashi", "Tanaka", "Watanabe",
+      "Ito", "Yamamoto", "Nakamura", "Kobayashi", "Kato",
+      "Yoshida", "Yamada", "Sasaki", "Yamaguchi", "Matsumoto",
+      "Inoue", "Kimura", "Hayashi", "Shimizu", "Yamazaki",
+      "Mori", "Abe", "Ikeda", "Hashimoto", "Yamashita",
+      "Ishikawa", "Nakajima", "Maeda", "Fujita", "Ogawa",
+      "Goto", "Okamoto", "Hasegawa", "Murakami", "Kondo",
+      "Ishida", "Saito", "Fujiwara", "Nishimura", "Okada",
+      "Matsuda", "Nakano", "Harada", "Ono", "Tamura",
+      "Takeuchi", "Kaneko", "Wada", "Ueda", "Kawamoto",
+      "Miura", "Fujii", "Ohta", "Nishida", "Sakamoto",
+      "Endo", "Aoki", "Sugiura", "Kubo", "Matsui",
+      "Iwata", "Nakata", "Tsuchiya", "Kuwahara", "Hirano"
+    ],
+    "given_masculine": [
+      "Haruto", "Sota", "Yuto", "Ren", "Hiroki",
+      "Daiki", "Shota", "Kaito", "Takuma", "Yuki",
+      "Tatsuya", "Kengo", "Ryo", "Sho", "Kota",
+      "Ryota", "Naoki", "Masaki", "Kenji", "Tomoki",
+      "Ryusei", "Hayato", "Kazuki", "Taiki", "Yusei",
+      "Issei", "Minato", "Sora", "Raito", "Asahi",
+      "Hokuto", "Yuito", "Kanata", "Haruki", "Takeshi",
+      "Noboru", "Makoto", "Satoshi", "Osamu", "Fumio",
+      "Akira", "Tsuyoshi", "Hiroshi", "Toshio", "Ichiro",
+      "Saburo", "Jiro", "Taro", "Tetsuya", "Yasushi",
+      "Shinji", "Kouji", "Daisuke", "Ryuichi", "Masahiro",
+      "Yosuke", "Takuya", "Atsushi", "Takayuki", "Kazuhiro"
+    ],
+    "given_feminine": [
+      "Himari", "Hana", "Yui", "Rin", "Hina",
+      "Saki", "Sakura", "Yuna", "Ayaka", "Miu",
+      "Aoi", "Nana", "Mana", "Riko", "Misaki",
+      "Haruka", "Koharu", "Akane", "Noa", "Yua",
+      "Kokona", "Ichika", "Runa", "Sana", "Reira",
+      "Momo", "Shiori", "Yuki", "Asuka", "Miyu",
+      "Natsuki", "Kana", "Emi", "Ami", "Naomi",
+      "Tomoko", "Yoshiko", "Keiko", "Reiko", "Fumiko",
+      "Noriko", "Sachiko", "Kimiko", "Michiko", "Hiroko",
+      "Kazuko", "Junko", "Sumiko", "Teruko", "Yukiko",
+      "Akiko", "Emiko", "Kyoko", "Masako", "Hanako",
+      "Yoko", "Shizuko", "Nobuko", "Chiyoko", "Tomoe"
+    ]
+  }
+}
