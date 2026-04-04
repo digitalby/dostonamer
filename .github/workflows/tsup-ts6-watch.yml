@@ -1,0 +1,37 @@
+name: Watch for tsup TS 6 compatibility
+
+on:
+  schedule:
+    - cron: "0 9 * * 1" # every Monday at 9am UTC
+  workflow_dispatch:
+
+jobs:
+  check:
+    name: Test tsup with TypeScript 6
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Upgrade to latest tsup and TypeScript 6
+        run: npm install --no-save tsup@latest typescript@6
+
+      - name: Try DTS build
+        id: build
+        run: npm run build
+        continue-on-error: true
+
+      - name: Notify if compatible
+        if: steps.build.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TSUP=$(jq -r .version node_modules/tsup/package.json)
+          TS=$(jq -r .version node_modules/typescript/package.json)
+          gh issue comment 19 --body "tsup \`${TSUP}\` + TypeScript \`${TS}\` builds successfully. Time to re-enable TypeScript major version bumps in \`.github/dependabot.yml\` and close this issue."
