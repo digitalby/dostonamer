@@ -16,7 +16,7 @@ export type NamePartType =
   | "particle"
   | "honorific"
   | "clan"
-  | string;
+  | (string & {});
 
 /** One component of a generated name. */
 export interface NamePart {

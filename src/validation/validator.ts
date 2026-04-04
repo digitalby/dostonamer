@@ -1,4 +1,4 @@
-import type { NamePack, StyleDefinition } from "../domain/types.js";
+import type { StyleDefinition } from "../domain/types.js";
 
 export interface ValidationError {
   field: string;
@@ -112,7 +112,7 @@ function validateStyle(
       const step = s["composition"][i] as Record<string, unknown>;
       if (typeof step["type"] !== "string") {
         errors.push({ field: `${prefix}.composition[${i}].type`, message: "Must be a string" });
-      } else if (!ALLOWED_PART_TYPES.has(step["type"] as string) && !(step["type"] as string).startsWith("x-")) {
+      } else if (!ALLOWED_PART_TYPES.has(step["type"]) && !step["type"].startsWith("x-")) {
         errors.push({
           field: `${prefix}.composition[${i}].type`,
           message: `Unknown part type "${step["type"]}". Use a standard type or prefix with "x-" for custom types.`,
@@ -129,10 +129,10 @@ function validateStyle(
       if (typeof step["position"] !== "number") {
         errors.push({ field: `${prefix}.composition[${i}].position`, message: "Must be a number" });
       } else {
-        if (positions.has(step["position"] as number)) {
+        if (positions.has(step["position"])) {
           errors.push({ field: `${prefix}.composition[${i}].position`, message: `Duplicate position ${step["position"]}` });
         }
-        positions.add(step["position"] as number);
+        positions.add(step["position"]);
       }
     }
   }
