@@ -13,3 +13,11 @@ updates:
       # Unblock once tsup releases TS 6 support.
       - dependency-name: typescript
         update-types: ["version-update:semver-major"]
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: weekly
+    groups:
+      actions:
+        patterns:
+          - "*"
